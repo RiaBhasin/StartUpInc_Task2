@@ -1,0 +1,463 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+#header {
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/564/324/1011/food-fish-black-background-caviar-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav li a {
+	color: seagreen;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav li a:hover {
+    color: forestgreen;
+}
+
+#text1 {
+	font-size: 35px;
+	color: seagreen;
+	margin: 60px;
+	margin-bottom: 85px;
+}
+
+#opening {
+	font-size: 40px;
+	color: seagreen;
+	margin-left: 60px;
+	margin-bottom: 85px;
+}
+
+#header .btn {
+	color: seagreen;
+	margin-left: 60px;
+	border: 2px solid white;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+#part1 {
+	background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#part1 .new {
+	display: flex;
+}
+
+.content h5 {
+	color: seagreen;
+	padding-top: 70px;
+	margin-left: 50px;
+}
+
+.content p {
+	color: white;
+	margin-left: 50px;
+	margin-top: 20px;
+	max-width: 600px;
+	margin-right: 450px;
+	padding-bottom: 100px;
+}
+
+.image img {
+	width: 300px;
+	height: 300px;
+	transform: rotate(45deg);
+	border: 2px solid black;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+@media (max-width: 1000px) {
+    #part1 .new {
+    	flex-direction: column;
+    }
+
+    .content p {
+    	width: 90%;
+    }
+
+    .image img {
+    	margin-top: 0;
+    	margin-left: 100px;
+    }
+}
+
+#part2 {
+	background-color: white;
+}
+
+#part2 .green{
+	background-color: darkolivegreen;
+	opacity: 0.8;
+}
+
+#part2 .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 50px;
+    justify-content: space-around;
+}
+
+.subpart {
+	max-width: 300px;
+	margin: 20px;
+} 
+
+#part2 i {
+	outline-color: green;
+	color: olivedrab;
+	margin-right: 1px;
+}
+
+#part2 h5 {
+	color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+#part2 p {
+	color: white;
+	font-family: none;
+	font-size: 20px;
+}
+
+
+@media (max-width: 1000px) {
+   #part2 .container {
+   	flex-direction: column;
+   	justify-content: center;
+   }
+}
+
+.part3 {
+	background-image: url("https://i.ytimg.com/vi/HPph35tdMP8/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.part3 .container {
+	text-align: center;
+	background-color: darkolivegreen;
+	opacity: 0.7;
+	padding: 0;
+}
+
+.part3 .menuitems {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.part3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.part3 #box {
+	max-width: 25%;
+	height: 200px;
+	align-items: center;
+}
+
+.part3 h4{
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.part3 h5 {
+	color: yellowgreen;
+}
+
+.part3 #box p {
+	color: white;
+	font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+
+  .part3 #box {
+     max-width: 50%;
+}
+
+}
+
+.part4 {
+	background-color: black;
+}
+
+.part4 .part4a {
+	background-color: white;
+}
+.part4 .cont {
+	background-color: darkolivegreen;
+	opacity: 0.7;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.part5 img {
+	width: 100%;
+	height: 200px;
+}
+
+.part6 .part6a {
+	background-color: white;
+}
+
+.part6 .cont {
+	background-color: darkolivegreen;
+	opacity: 0.7;
+	display: flex;
+	flex-direction: column;
+	padding-left: 160px;
+}
+.part6 .newmenu {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	max-height: 500px;
+	justify-content: space-between;
+}
+
+.part6 p {
+	max-width: 300px;
+	color: lightgray	;
+}
+
+.part6 h5 {
+	color: black;
+}
+.part6 h3 {
+	margin: 0 330px;
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+
+.part6 i {
+	color: darkslategray;
+	margin: auto 6px;
+}
+
+@media (max-width: 1000px) {
+	.part6 .newmenu {
+        flex-wrap: nowrap;
+        max-height: 1000px;
+	}
+
+	.part6 h3 {
+		margin: 20px auto;
+	}
+
+	.part6 .dish {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.part8 {
+	background-image: url("https://ak.picdn.net/shutterstock/videos/1022865379/thumb/7.jpg?ip=x160");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 80px;
+}
+
+.part8 h3 {
+	margin: 0 auto;
+	padding-left: 455px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 40px;
+}
+
+.part8 .sumbit {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.part8 input, select {
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 3px;
+}
+
+.part8a, .part8b, .part8c {
+	display: flex;
+	flex-direction: column;
+}
+
+.part8 label {
+	margin-top: 25px;
+}
+
+.part8 a {
+	font-family: none;
+	color: white;
+	border: 2px solid white;
+	margin-top: 40px;
+	margin-left: 500px;
+}
+
+@media (max-width: 1000px) {
+
+	.part8 .sumbit {
+		flex-direction: column;
+	}
+
+	.part8 a {
+		margin-left: 200px;
+	}
+
+	.part8 h3 {
+		padding-left: 160px;
+	}
+
+	.part9img img {
+       height: 500px;
+       width: 500px;
+	}
+}
+
+.part9 {
+	text-align: center;
+}
+
+.part9 h2 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.part9 .newitems {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 60px;
+}
+
+@media (max-width: 1000px) {
+	.part9 .newitems {
+		flex-direction: column;
+	}
+
+	.part9 .newitems div {
+		margin-bottom: 20px;
+		margin-left: 120px;
+	}
+}
+
+.part9 .newitems div {
+	max-width: 250px;
+	background-color: white;
+	color: black;
+	text-align: left;
+	padding-bottom: 20px;
+	border-radius: 10px;
+}
+
+.part9 img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 250px;
+	height: 220px;
+	opacity: 1;
+}
+
+.part9 p {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: none;
+	font-weight: bold;
+}
+
+.part9 h5 {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.part9 a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 4px solid darkgreen;
+	font-family: none;
+	margin-left: 10px;
+}
+
+.part10 {
+	text-align: center;
+	background-image: url("https://coolbackgrounds.io/images/backgrounds/black/black-radial-gradient-bb05ed79.jpg");
+	color: olivedrab;
+}
+
+.part10 #dash {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.part10 #text {
+   max-width: 700px;
+   font-family: none;
+   text-align: center;
+   margin-left: 300px;
+}
+
+@media (max-width: 1000px) {
+	.part10 #text {
+         width: 300px;
+         margin-left: 20%;
+	}
+
+}
+
+.part10 div i{
+	color: white;
+	margin: 0 5px;
+	padding-bottom: 25px;
+}
+
+.part11 {
+	background-color: white;
+}
+
+.part11 .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.part11 li, .part11 p {
+	font-family: none;
+	color: white;
+}
+
+.part11 h3 {
+	color: white;
+	padding-top: 30px;
+}
+.part11 ul {
+	list-style: none;
+}
+
+@media (max-width: 1000px) {
+	.part11 .container {
+	flex-direction: column;
+}
+}
